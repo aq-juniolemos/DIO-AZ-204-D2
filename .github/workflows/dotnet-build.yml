@@ -3,7 +3,7 @@ name: Build and deploy containerized ASP.Net Core app to Azure Web App
 env:
   AZURE_WEBAPP_NAME: dioapidemo    # Nome do Azure Web App
   AZURE_ACR_NAME: acrdioapidemo       # Nome do Azure Container Registry (ACR)
-  IMAGE_NAME: APITempoDIO          # Nome da imagem Docker
+  IMAGE_NAME: apitempodio         # Nome da imagem Docker
 
 on:
   push:
