@@ -27,7 +27,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ env.AZURE_ACR_NAME }}.azurecr.io/${{ env.IMAGE_NAME }}:latest APITempoDIO/Dockerfile
+        
+          docker build -t ${{ env.AZURE_ACR_NAME }}.azurecr.io/${{ env.IMAGE_NAME }}:latest APITempoDIO/.
 
       - name: Push Docker image to ACR
         run: |
